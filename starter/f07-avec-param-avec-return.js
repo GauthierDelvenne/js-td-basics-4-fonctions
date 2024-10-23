@@ -11,8 +11,16 @@
    - retourne cette variable message
 2. Affichez dans la console bonjour à
    a) "Baptiste"
-   b) "Sophie"
+   b) ""
 */
+function direBonjour(prenom){
+    const message = `Bonjour ${prenom} !`;
+    return message;
+}
+
+
+console.log(direBonjour('Baptiste'));
+console.log(direBonjour('Sophie'));
 
 // RETURN, PORTÉE DE VARIABLE, PARAMÈTRE - RÉSUMÉ GLOBAL :
 /*

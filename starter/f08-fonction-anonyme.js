@@ -13,7 +13,10 @@
   la fonction direBonjour qui affiche "Bonjour !" dans la console
 - Exécutez la fonction
 */
-
+function direBonjour() {
+    console.log("Bonjour !");
+}
+direBonjour();
 // Expression de fonction sans paramètre ni return
 
 
@@ -22,7 +25,11 @@
 
 
 // b) sans paramètre mais avec return
-
+function direBonjour() {
+    console.log("Bonjour !");
+    return;
+}
+direBonjour();
 /* EXERCICE 2 :
 - Déclarez sous la forme d'une expression de fonction
   la fonction disBonjour qui retourne la chaîne "Bonjour !"
@@ -33,7 +40,12 @@
 ;
 
 // Utilisation de la fonction pour afficher "Bonjour !" dans la console
+function direBonjour() {
+    const message = "Bonjour !";
+    return message;
+}
 
+console.log(direBonjour());
 
 
 // c) avec paramètre et return
@@ -49,3 +61,9 @@
 // Expression de fonction avec paramètre et return
 
 // Utilisation de la fonction pour saluer Thomas dans la console
+function direBonjour(prenom) {
+    const message = `Bonjour ${prenom} !`;
+    return message;
+}
+direBonjour(prenom = 'Thomas');
+console.log(direBonjour(prenom));
