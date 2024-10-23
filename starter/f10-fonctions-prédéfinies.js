@@ -29,6 +29,13 @@ Utiliser la fonction Math.random pour afficher dans la console
 */
 
 console.log(Math.random()); // Un nombre aléatoire entre 0 et 1
+console.log(Math.random()*10);
+console.log(Math.random()*10+5);
+
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+randomInt(5, 15)
 
 // Nous découvrirons plein d'autres fonctions prédéfinies dans la suite de ce cours.
 
