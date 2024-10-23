@@ -18,19 +18,15 @@ function calculer(nb1, nb2, operation) {
         case '+':
              nb1 + nb2;
             return nb1 + nb2;
-            break;
         case `-`:
             nb1 - nb2;
             return nb1 - nb2;
-            break;
         case '*':
             nb1 * nb2;
             return nb1 * nb2;
-            break;
         case '/':
             nb1 / nb2;
             return nb1 / nb2;
-            break;
     }
 }
 

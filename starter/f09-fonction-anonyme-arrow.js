@@ -44,7 +44,7 @@ N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions
 */
 
 // Fonction anonyme avec la syntaxe simplifiée
-const message = name => `Bonjour ${name} ?`;
+const message = () => `Bonjour ${name} ?`;
 console.log(message('Thomas'))
 
 // Utilisation de la fonction pour saluer Thomas dans la console
